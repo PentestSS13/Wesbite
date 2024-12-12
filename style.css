@@ -1,0 +1,173 @@
+@import url('https://fonts.cdnfonts.com/css/superhelio');
+*{
+    font-family: 'superhelio _regular', sans-serif;
+    box-sizing: border-box;
+}
+
+html, body{
+    padding: 0;
+    margin: 0;
+    background-color: #636363;
+}
+
+a{
+    color: #0004ff;
+}
+h1{
+    font-size: 1em;
+}
+nav ul{
+    margin: 0px;
+}
+
+nav li {
+    display: inline;
+}
+
+.nav{
+    color: #041e46;
+    text-decoration: none;
+}
+
+nav a {
+    display: inline-block;
+    padding: .1em;
+    color: #505050;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: #464646;
+
+}
+
+button{
+  background-color: #d3d3d3;
+  border: none;
+  padding: 0;
+  text-align: left;
+  text-decoration: none;
+  width: 100%;
+  }
+  
+button:hover{
+  background-color: #041e46;
+  }
+
+.shell{
+  background-color: #041e46;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.shell:hover{
+  background-color: #041e46;
+}
+
+.mainNav{
+    text-align: center;
+    font-size: 1.7em;
+    border-top: 2px solid #041e46;
+}
+
+.mainNav li{
+    padding:0 2%;
+}
+
+.mainHeader{
+    text-align: center;
+    padding: 5px;
+    margin: 0px;
+    background-color: #797979;
+    background-size: cover;
+}
+
+.mainTitle{
+    margin: 5px;
+    font-size: 2.7em;
+    font-weight: normal;
+    font-style: normal;
+    color: #041e46;
+}
+
+.Main{
+    max-width:900px;
+}
+
+.bodyText{
+    margin: 4em;
+    flex-direction: column;
+}
+
+.centered{
+    text-align: center;
+}
+
+.body{    
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    }
+    
+.container{
+    display:flex;
+    border: 2px solid #041e46;
+    background-color: #bdbdbd;
+    margin: 10px;
+    padding: 5px 30px;
+    overflow-wrap: break-word;
+}
+
+.mainFrame{
+    width: 1300px;
+    height: 700px;
+}
+.left{
+    float: left;
+    max-width: 300px;
+    padding: 0px 0px;
+  }
+  
+.right{
+    float: right;
+    max-width: 200px;
+    padding: 0px 0px;
+  }
+.imageContainer{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 840px;
+  }
+.bodyImage1{
+    flex-shrink:1;
+    padding: 5px;
+    min-width: 0;
+    min-height: 0;
+    display: flex;
+    max-width: 100%;
+
+}
+.headerImage{
+    max-height: 60px;
+    display: inline;
+}
+
+.typewriter {
+    display: inline-block;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 2s steps(61, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
